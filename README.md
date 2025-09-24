@@ -8,8 +8,8 @@ Aqui você encontrará instruções, exemplos e boas práticas para trabalhar co
 ## 📚 Conteúdo
 
 - [Angular](Angular.md)
-- [React](#react)
-- [Vue.js](#vuejs)
+- [React](React.md)
+- [Vue.js](Vue.md)
 - [Outros Frameworks](#outros-frameworks)
 
 ---
