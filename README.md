@@ -7,7 +7,7 @@ Aqui você encontrará instruções, exemplos e boas práticas para trabalhar co
 
 ## 📚 Conteúdo
 
-- [Angular](#angular)
+- [Angular](angular.md)
 - [React](#react)
 - [Vue.js](#vuejs)
 - [Outros Frameworks](#outros-frameworks)
