@@ -51,6 +51,57 @@ A CLI irá perguntar:
 - Se deseja adicionar **Angular routing** (rotas).  
 - Qual tipo de **estilo** usar (CSS, SCSS, etc).  
 
+1. Analytics
+
+-   Comando usado:
+
+    ``` bash
+    ng analytics disable --global
+    ```
+
+-   Função: desativa o envio de dados de uso para o Angular CLI
+    (privacidade).\
+
+-   Status final: **desativado**.
+
+------------------------------------------------------------------------
+
+2. Server-Side Rendering (SSR) e Static Site Generation (SSG)
+
+-   Pergunta: *Do you want to enable Server-Side Rendering (SSR) and
+    Static Site Generation (SSG/Prerendering)?*\
+-   Escolha: **N** (não habilitar).\
+-   Motivo: para SPA simples não é necessário. SSR/SSG só é indicado se
+    o foco for **SEO** ou **conteúdo pré-renderizado**.
+
+------------------------------------------------------------------------
+
+3. Zoneless Application (`zone.js`)
+
+-   Pergunta: *Do you want to create a 'zoneless' application without
+    zone.js?*\
+-   Escolha: **N** (usar `zone.js`).\
+-   Motivo: mais simples e compatível com a maioria das bibliotecas
+    Angular.\
+-   Obs: Se escolher **Y**, o projeto usará *signals* e o desenvolvedor
+    controla manualmente a detecção de mudanças.
+
+------------------------------------------------------------------------
+
+4. Integração com Ferramentas de IA
+
+-   Pergunta: *Which AI tools do you want to configure with Angular best
+    practices?*\
+-   Escolha: **None**.\
+-   Motivo: não há integração necessária no momento.\
+-   Obs: Caso utilize ferramentas como **GitHub Copilot**, **Claude** ou
+    **Gemini**, é possível habilitar para gerar recomendações alinhadas
+    ao Angular.
+
+------------------------------------------------------------------------
+ading config-angular-vite.md…]()
+
+
 ---
 
 ## ▶️ Rodar o servidor de desenvolvimento
